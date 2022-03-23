@@ -8,4 +8,11 @@
     <string name="guru">GURU DAN STAFF</string>
     <string name="eksk">EKSKUL</string>
     <string name="sekolah">SMP N 4 POLOKARTO</string>
+    <string name="lab_komputer">Lab Komputer</string>
+    <string name="perpustakaan">Perpustakaan</string>
+    <string name="musola">Musola</string>
+    <string name="memperingati">Memperingati hari kemerdekaan</string>
+    <string name="pentas">Pentas seni</string>
+    <string name="memperingati2">Memperingati hari guru</string>
+    <string name="ulangtahun">Ulangtahun Sekolah</string>
 </resources>
