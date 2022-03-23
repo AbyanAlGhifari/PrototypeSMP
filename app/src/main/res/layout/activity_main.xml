@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <View
+                android:id="@+id/view1"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="@drawable/protokol" />
+
+            <TextView
+                android:id="@+id/iv_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:gravity="center"
+                android:text="@string/sekolah"
+                android:textColor="#000000" />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:id="@+id/line1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="15dp"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="15dp"
+                        android:background="@drawable/bakron">
+
+                        <ImageView
+                            android:id="@+id/iview1"
+                            android:layout_width="185dp"
+                            android:layout_height="140dp"
+                            android:onClick="profile"
+                            android:paddingTop="20dp"
+                            android:paddingBottom="40dp"
+                            android:src="@drawable/school" />
+
+                        <TextView
+                            android:id="@+id/textiview1"
+                            android:layout_width="64dp"
+                            android:layout_height="23dp"
+                            android:layout_alignLeft="@+id/iview1"
+                            android:layout_alignTop="@id/iview1"
+                            android:layout_alignRight="@+id/iview1"
+                            android:layout_alignBottom="@id/iview1"
+                            android:layout_marginTop="90dp"
+                            android:gravity="center"
+                            android:text="@string/prof"
+                            android:textColor="#000000"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="15dp"
+                        android:background="@drawable/bakron">
+
+                        <ImageView
+                            android:id="@+id/iview2"
+                            android:layout_width="185dp"
+                            android:layout_height="140dp"
+                            android:onClick="ekskul"
+                            android:paddingTop="20dp"
+                            android:paddingBottom="40dp"
+                            android:src="@drawable/sports" />
+
+                        <TextView
+                            android:id="@+id/textiview2"
+                            android:layout_width="64dp"
+                            android:layout_height="23dp"
+                            android:layout_alignLeft="@+id/iview2"
+                            android:layout_alignTop="@id/iview2"
+                            android:layout_alignRight="@+id/iview2"
+                            android:layout_alignBottom="@id/iview2"
+                            android:layout_marginTop="90dp"
+                            android:gravity="center"
+                            android:text="@string/eksk"
+                            android:textColor="#000000"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="15dp"
+                        android:background="@drawable/bakron">
+
+                        <ImageView
+                            android:id="@+id/iview3"
+                            android:layout_width="185dp"
+                            android:layout_height="140dp"
+                            android:onClick="prestasi"
+                            android:paddingTop="20dp"
+                            android:paddingBottom="40dp"
+                            android:src="@drawable/trophy" />
+
+                        <TextView
+                            android:id="@+id/textiview3"
+                            android:layout_width="64dp"
+                            android:layout_height="23dp"
+                            android:layout_alignLeft="@+id/iview3"
+                            android:layout_alignTop="@id/iview3"
+                            android:layout_alignRight="@+id/iview3"
+                            android:layout_alignBottom="@id/iview3"
+                            android:layout_marginTop="90dp"
+                            android:gravity="center"
+                            android:text="@string/pres"
+                            android:textColor="#000000"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/line2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@id/line1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="15dp"
+                        android:background="@drawable/bakron">
+
+                        <ImageView
+                            android:id="@+id/iview4"
+                            android:layout_width="185dp"
+                            android:layout_height="140dp"
+                            android:onClick="guru"
+                            android:paddingTop="20dp"
+                            android:paddingBottom="40dp"
+                            android:src="@drawable/leader" />
+
+                        <TextView
+                            android:id="@+id/textiview4"
+                            android:layout_width="64dp"
+                            android:layout_height="23dp"
+                            android:layout_alignLeft="@+id/iview4"
+                            android:layout_alignTop="@id/iview4"
+                            android:layout_alignRight="@+id/iview4"
+                            android:layout_alignBottom="@id/iview4"
+                            android:layout_marginTop="90dp"
+                            android:gravity="center"
+                            android:text="@string/guru"
+                            android:textColor="#000000"
+                            android:textSize="19sp"
+                            android:textStyle="bold" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="15dp"
+                        android:background="@drawable/bakron">
+
+                        <ImageView
+                            android:id="@+id/iview5"
+                            android:layout_width="185dp"
+                            android:layout_height="140dp"
+                            android:onClick="fasilitas"
+                            android:paddingTop="20dp"
+                            android:paddingBottom="40dp"
+                            android:src="@drawable/medical" />
+
+                        <TextView
+                            android:id="@+id/textiview5"
+                            android:layout_width="64dp"
+                            android:layout_height="23dp"
+                            android:layout_alignLeft="@+id/iview5"
+                            android:layout_alignTop="@id/iview5"
+                            android:layout_alignRight="@+id/iview5"
+                            android:layout_alignBottom="@id/iview5"
+                            android:layout_marginTop="90dp"
+                            android:gravity="center"
+                            android:text="@string/fasi"
+                            android:textColor="#000000"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="15dp"
+                        android:background="@drawable/bakron">
+
+                        <ImageView
+                            android:id="@+id/iview6"
+                            android:layout_width="185dp"
+                            android:layout_height="140dp"
+                            android:onClick="gallery"
+                            android:paddingTop="20dp"
+                            android:paddingBottom="40dp"
+                            android:src="@drawable/gallery" />
+
+                        <TextView
+                            android:id="@+id/textiview"
+                            android:layout_width="64dp"
+                            android:layout_height="23dp"
+                            android:layout_alignLeft="@+id/iview6"
+                            android:layout_alignTop="@id/iview6"
+                            android:layout_alignRight="@+id/iview6"
+                            android:layout_alignBottom="@id/iview6"
+                            android:layout_marginTop="90dp"
+                            android:gravity="center"
+                            android:text="@string/gall"
+                            android:textColor="#000000"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+                    </RelativeLayout>
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

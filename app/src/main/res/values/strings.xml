@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">PrototypeSMP</string>
+    <string name="penjelasanperpus">Fasilitas ruang Perpustakaan berupa rak buku, meja dan kursi baca, komputer, dan tempat informasi (seperti koran, majalah), serta terdapat alat dan bahan pustakawan.</string>
+    <string name="fasi">FASILITAS</string>
+    <string name="pres">PRESTASI</string>
+    <string name="prof">PROFIL</string>
+    <string name="gall">GALLERY</string>
+    <string name="guru">GURU DAN STAFF</string>
+    <string name="eksk">EKSKUL</string>
+    <string name="sekolah">SMP N 4 POLOKARTO</string>
+</resources>
