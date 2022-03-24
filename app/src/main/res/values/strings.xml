@@ -1,6 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <resources>
     <string name="app_name">PrototypeSMP</string>
+    <string name="penjelasanmusola">Fasilitas Mushola menyediakan sajadah, sarung, mukena, alquran, dan alat khotbah(mic, mimbar, speaker, toa)</string>
     <string name="penjelasanperpus">Fasilitas ruang Perpustakaan berupa rak buku, meja dan kursi baca, komputer, dan tempat informasi (seperti koran, majalah), serta terdapat alat dan bahan pustakawan.</string>
+    <string name="penjelasanlab">Fasiitas Lab Komputer berupa komputer, mouse ,keyboard, monitor, dan proyektor</string>
     <string name="fasi">FASILITAS</string>
     <string name="pres">PRESTASI</string>
     <string name="prof">PROFIL</string>
@@ -10,9 +13,14 @@
     <string name="sekolah">SMP N 4 POLOKARTO</string>
     <string name="lab_komputer">Lab Komputer</string>
     <string name="perpustakaan">Perpustakaan</string>
-    <string name="musola">Musola</string>
-    <string name="memperingati">Memperingati hari kemerdekaan</string>
-    <string name="pentas">Pentas seni</string>
-    <string name="memperingati2">Memperingati hari guru</string>
-    <string name="ulangtahun">Ulangtahun Sekolah</string>
+    <string name="mushola">Mushola</string>
+    <string name="kegiatan">Kegiatan lainnya</string>
+    <string name="brsh">Kegiatan bersih-bersih</string>
+    <string name="upacr">Upacara</string>
+    <string name="pra">Kegiatan Pramuka</string>
+    <string name="visi">Berkarakter, Berprestasi dan Berbudaya Lingkungan</string>
+    <string name="misi">1.Menanamkan Keimanan dan Ketakwaan kepada Tuhan Yang Maha Esa\n2.Menyelenggarakan Pendidikan dan Pelatihan yang Berkualitas dan Berbudaya Lingkungan</string>
+    <string name="datasekul">Nama Sekolah    : SMP NEGERI 4 POLOKARTO\nNomor Pokok Sekolah Nasional    : 20310719\nJenjang Pendidikan    : SMP\nStatus Sekolah    : Negeri\nAlamat Sekolah    : Jl. Karanganyar-jumapolo\nRT/RW    : 2 / 3\nDosun    : BakaranDesa\nKelurahan    : Genengsari\nKecamatan    : Kec. Polokarto\nKabupaten    : Kab. Sukoharjo\nProvinsi    : Prov. Jawa Tengah\nKode Pos    : 57555\nLokasi Geografis    : Lintang -7 Bujur 110</string>
+    <string name="visinmisi">Visi dan Misi</string>
+    <string name="penjelasanpramuka">Kegiatan pramuka, kegiatan pramuka dilakukan pada sekolah ini untuk membantu perkembangan siswa baik mental maupun fisik.</string>
 </resources>

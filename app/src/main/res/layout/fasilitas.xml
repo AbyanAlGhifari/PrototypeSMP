@@ -27,24 +27,31 @@
                     android:layout_width="200dp"
                     android:layout_height="150dp"
                     android:layout_gravity="center"
-                    android:background="@color/black"/>
-
-                <TextView
-                    android:layout_width="match_parent"
+                    android:src="@drawable/mosque"/>
+                <LinearLayout
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/musola"
-                    android:gravity="center_horizontal"
-                    android:textStyle="bold"
-                    android:textColor="@color/black"/>
+                    android:orientation="vertical"
+                    android:background="@drawable/bakron">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/mushola"
+                        android:gravity="center_horizontal"
+                        android:textStyle="bold"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"/>
 
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textSize="15sp"
-                    android:text="@string/penjelasanperpus"
-                    android:background="@color/teal_200"
-                    android:textColor="@color/black"/>
-
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="15sp"
+                        android:paddingStart="15dp"
+                        android:paddingEnd="15dp"
+                        android:paddingBottom="10dp"
+                        android:text="@string/penjelasanmusola"
+                        android:textColor="@color/black"/>
+                </LinearLayout>
             </LinearLayout>
 
             <LinearLayout
@@ -57,24 +64,30 @@
                     android:layout_width="200dp"
                     android:layout_height="150dp"
                     android:layout_gravity="center"
-                    android:background="@color/black"/>
-
-                <TextView
-                    android:layout_width="match_parent"
+                    android:src="@drawable/library"/>
+                <LinearLayout
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/perpustakaan"
-                    android:gravity="center_horizontal"
-                    android:textStyle="bold"
-                    android:textColor="@color/black" />
+                    android:orientation="vertical"
+                    android:background="@drawable/bakron">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/perpustakaan"
+                        android:gravity="center_horizontal"
+                        android:textStyle="bold"
+                        android:textColor="@color/black" />
 
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textSize="15sp"
-                    android:text="@string/penjelasanperpus"
-                    android:background="@color/teal_200"
-                    android:textColor="@color/black"/>
-
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="15sp"
+                        android:text="@string/penjelasanperpus"
+                        android:paddingStart="15dp"
+                        android:paddingEnd="15dp"
+                        android:paddingBottom="10dp"
+                        android:textColor="@color/black"/>
+                </LinearLayout>
             </LinearLayout>
             <LinearLayout
                 android:layout_width="match_parent"
@@ -86,23 +99,30 @@
                     android:layout_width="200dp"
                     android:layout_height="150dp"
                     android:layout_gravity="center"
-                    android:background="@color/black"/>
-
-                <TextView
-                    android:layout_width="match_parent"
+                    android:src="@drawable/computer"/>
+                <LinearLayout
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/lab_komputer"
-                    android:gravity="center_horizontal"
-                    android:textStyle="bold"
-                    android:textColor="@color/black"/>
+                    android:orientation="vertical"
+                    android:background="@drawable/bakron">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/lab_komputer"
+                        android:gravity="center_horizontal"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"/>
 
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textSize="15sp"
-                    android:text="@string/penjelasanperpus"
-                    android:background="@color/teal_200"
-                    android:textColor="@color/black" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="15sp"
+                        android:text="@string/penjelasanlab"
+                        android:paddingStart="15dp"
+                        android:paddingEnd="15dp"
+                        android:paddingBottom="10dp"
+                        android:textColor="@color/black" />
+                </LinearLayout>
             </LinearLayout>
         </LinearLayout>
     </RelativeLayout>

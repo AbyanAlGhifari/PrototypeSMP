@@ -45,6 +45,9 @@
         <activity
             android:name=".GuruActivity"
             android:exported="false" />
+        <activity
+            android:name=".PramukaActivity"
+            android:exported="false" />
     </application>
 
 </manifest>
