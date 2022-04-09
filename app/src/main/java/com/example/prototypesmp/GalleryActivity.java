@@ -17,4 +17,8 @@ public class GalleryActivity extends AppCompatActivity {
         Intent intent = new Intent(GalleryActivity.this, PramukaActivity.class);
         startActivity(intent);
     }
+    public void upacara(View view) {
+        Intent intent = new Intent(GalleryActivity.this, UpacaraActivity.class);
+        startActivity(intent);
+    }
 }

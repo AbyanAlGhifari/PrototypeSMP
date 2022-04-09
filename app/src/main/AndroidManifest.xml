@@ -48,6 +48,9 @@
         <activity
             android:name=".PramukaActivity"
             android:exported="false" />
+        <activity
+            android:name=".UpacaraActivity"
+            android:exported="false" />
     </application>
 
 </manifest>

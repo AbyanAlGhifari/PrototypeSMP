@@ -18,9 +18,19 @@
     <string name="brsh">Kegiatan bersih-bersih</string>
     <string name="upacr">Upacara</string>
     <string name="pra">Kegiatan Pramuka</string>
-    <string name="visi">Berkarakter, Berprestasi dan Berbudaya Lingkungan</string>
-    <string name="misi">1.Menanamkan Keimanan dan Ketakwaan kepada Tuhan Yang Maha Esa\n2.Menyelenggarakan Pendidikan dan Pelatihan yang Berkualitas dan Berbudaya Lingkungan</string>
+    <string name="visi">TERWUJUDNYA PESERTA DIDIK YANG BERPRESTASI, BERIMAN, BERTAKWA, TERAMPIL, PEDULI LINGKUNGAN DAN CINTA TANAH AIR</string>
+    <string name="misi">1.Mewujudkan Lulusa yag cerdas, kompetitif, cinta tanah air, beriman, bertakwa, dan berbudi pekerti luhur;\n2.Mewujudkan nilai-nilai agama dalam kehidupan peserta didik;\n3.Mewujudkan perangkat doumen buku KTSP;\n4.Mewujudkan perangkat kurikulum yang lengkap mutakhir dan bewawasan kedepan;\n5.Mewujudkan isi kurikulum pembelajaran yang standar;\n6.Mewujudkan pembeajaran yang berbasis pada standar kompetensi lulusan;\n7.Mewujudkan proses pembelajaran scientific yang efektif dan efisien;\n8.Mewujudkan sarana dan prasarana pendidikan yang cukup jumlahnya dan lengkap\n9.Mewujudkan kualitas pendidik dan tenaga kependidikan yang kompeten dan profesional;\n10.Mewujudkan manajemen berbasis sekolah yang baik dan transparan\n11.Mewujudkan sistem dan perangkat penilaian otentik yang valid;\n12.Mewujudkan pembiyaan pendidikan yang memadai, wajar, dan adil.</string>
     <string name="datasekul">Nama Sekolah    : SMP NEGERI 4 POLOKARTO\nNomor Pokok Sekolah Nasional    : 20310719\nJenjang Pendidikan    : SMP\nStatus Sekolah    : Negeri\nAlamat Sekolah    : Jl. Karanganyar-jumapolo\nRT/RW    : 2 / 3\nDosun    : BakaranDesa\nKelurahan    : Genengsari\nKecamatan    : Kec. Polokarto\nKabupaten    : Kab. Sukoharjo\nProvinsi    : Prov. Jawa Tengah\nKode Pos    : 57555\nLokasi Geografis    : Lintang -7 Bujur 110</string>
     <string name="visinmisi">Visi dan Misi</string>
     <string name="penjelasanpramuka">Kegiatan pramuka, kegiatan pramuka dilakukan pada sekolah ini untuk membantu perkembangan siswa baik mental maupun fisik.</string>
+    <string name="perpus">PERPUSTAKAAN</string>
+    <string name="tahunajar">Tahun 2021/2022</string>
+    <string name="vsi">Visi</string>
+    <string name="msi">Misi</string>
+    <string name="penjelasanoffice">Fasilitas Ruang kantor biasanya di gunakan oleh para guru dan staff</string>
+    <string name="penjelasankelas">Fasilitas Ruang kelas digunakan untuk belajar mengajar, setiap kelas menyediakan papantulis bangku dan kursi.</string>
+    <string name="lab_ipa">Lab IPA</string>
+    <string name="penjelasanlabipa">Fasilitas Lab IPA menyediakan alat-alat untuk bereksperiment sesuai kebutuhan pembelejaran</string>
+    <string name="koperasi">Koperasi</string>
+    <string name="penjelasankoperasi">Fasilitas koperasi menjual berbagai macam kebutuhan belajar, dan menyediakan snack.</string>
 </resources>

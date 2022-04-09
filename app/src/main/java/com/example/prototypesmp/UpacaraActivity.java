@@ -4,11 +4,11 @@ import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class PramukaActivity extends AppCompatActivity {
+public class UpacaraActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.gallery_pramuka);
+        setContentView(R.layout.gallery_upacara);
     }
 }

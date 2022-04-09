@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/NA/AndroidStudioProjects/PrototypeSMP/app/src/main/res/drawable/backround.xml" value="0.115" />
         <entry key="..\:/Users/NA/AndroidStudioProjects/PrototypeSMP/app/src/main/res/drawable/bakron.xml" value="0.114" />
         <entry key="..\:/Users/NA/AndroidStudioProjects/PrototypeSMP/app/src/main/res/drawable/gradi.xml" value="0.1" />
         <entry key="..\:/Users/NA/AndroidStudioProjects/PrototypeSMP/app/src/main/res/drawable/ic_launcher_background.xml" value="0.114" />
@@ -10,10 +11,13 @@
         <entry key="..\:/Users/NA/AndroidStudioProjects/PrototypeSMP/app/src/main/res/layout/activity_menu.xml" value="0.1" />
         <entry key="..\:/Users/NA/AndroidStudioProjects/PrototypeSMP/app/src/main/res/layout/asd.xml" value="0.1" />
         <entry key="..\:/Users/NA/AndroidStudioProjects/PrototypeSMP/app/src/main/res/layout/ekskul.xml" value="0.25" />
-        <entry key="..\:/Users/NA/AndroidStudioProjects/PrototypeSMP/app/src/main/res/layout/fasilitas.xml" value="0.33" />
+        <entry key="..\:/Users/NA/AndroidStudioProjects/PrototypeSMP/app/src/main/res/layout/fasilitas.xml" value="0.23030303030303031" />
         <entry key="..\:/Users/NA/AndroidStudioProjects/PrototypeSMP/app/src/main/res/layout/gallery.xml" value="0.33" />
+        <entry key="..\:/Users/NA/AndroidStudioProjects/PrototypeSMP/app/src/main/res/layout/gallery_upacara.xml" value="0.1675929884566054" />
         <entry key="..\:/Users/NA/AndroidStudioProjects/PrototypeSMP/app/src/main/res/layout/gurudanstaff.xml" value="0.22" />
+        <entry key="..\:/Users/NA/AndroidStudioProjects/PrototypeSMP/app/src/main/res/layout/gurudanstaff_staff.xml" value="0.18" />
         <entry key="..\:/Users/NA/AndroidStudioProjects/PrototypeSMP/app/src/main/res/layout/osis.xml" value="0.22" />
+        <entry key="..\:/Users/NA/AndroidStudioProjects/PrototypeSMP/app/src/main/res/layout/pramuka.xml" value="0.25" />
         <entry key="..\:/Users/NA/AndroidStudioProjects/PrototypeSMP/app/src/main/res/layout/prestasi.xml" value="0.1" />
         <entry key="..\:/Users/NA/AndroidStudioProjects/PrototypeSMP/app/src/main/res/layout/profile.xml" value="0.25" />
       </map>

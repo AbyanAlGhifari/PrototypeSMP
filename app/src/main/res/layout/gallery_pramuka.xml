@@ -12,7 +12,7 @@
             android:layout_width="wrap_content"
             android:layout_height="300dp"
             android:orientation="horizontal"
-            android:background="@drawable/bakron">
+            android:background="@drawable/backround">
 
             <ImageView
                 android:layout_width="300dp"
@@ -29,16 +29,39 @@
                 android:layout_height="300dp"
                 android:layout_marginStart="10dp"
                 android:src="@drawable/pra3"/>
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_marginStart="10dp"
+                android:src="@drawable/pra4"/>
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_marginStart="10dp"
+                android:src="@drawable/pra5"/>
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_marginStart="10dp"
+                android:src="@drawable/pra6"/>
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="25dp"
+                android:src="@drawable/pra7"/>
         </LinearLayout>
     </HorizontalScrollView>
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:background="@drawable/bakron">
+        android:layout_marginTop="10dp"
+        android:background="@drawable/backround">
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
             android:text="Kegiatan Pramuka"
             android:gravity="center_horizontal"
             android:textStyle="bold"

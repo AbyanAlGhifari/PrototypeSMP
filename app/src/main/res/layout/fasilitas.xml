@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>                                                                                                                                                                                                                                                                                                                                                                                                                                    <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -15,9 +15,78 @@
             android:layout_marginVertical="20dp"
             android:orientation="vertical"
             android:gravity="center">
-
             <LinearLayout
-                android:id="@+id/llay1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginBottom="25dp">
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/desk"/>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:background="@drawable/bakron">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Ruang Kantor"
+                        android:gravity="center_horizontal"
+                        android:textStyle="bold"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="15sp"
+                        android:paddingStart="15dp"
+                        android:paddingEnd="15dp"
+                        android:paddingBottom="10dp"
+                        android:text="@string/penjelasanoffice"
+                        android:textColor="@color/black"/>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginBottom="25dp">
+
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/classroom"/>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:background="@drawable/bakron">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Ruang Kelas"
+                        android:gravity="center_horizontal"
+                        android:textStyle="bold"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="15sp"
+                        android:paddingStart="15dp"
+                        android:paddingEnd="15dp"
+                        android:paddingBottom="10dp"
+                        android:text="@string/penjelasankelas"
+                        android:textColor="@color/black"/>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
@@ -118,6 +187,76 @@
                         android:layout_height="wrap_content"
                         android:textSize="15sp"
                         android:text="@string/penjelasanlab"
+                        android:paddingStart="15dp"
+                        android:paddingEnd="15dp"
+                        android:paddingBottom="10dp"
+                        android:textColor="@color/black" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginBottom="25dp">
+
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/chemical"/>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:background="@drawable/bakron">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/lab_ipa"
+                        android:gravity="center_horizontal"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="15sp"
+                        android:text="@string/penjelasanlabipa"
+                        android:paddingStart="15dp"
+                        android:paddingEnd="15dp"
+                        android:paddingBottom="10dp"
+                        android:textColor="@color/black" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginBottom="25dp">
+
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/store"/>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:background="@drawable/bakron">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/koperasi"
+                        android:gravity="center_horizontal"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="15sp"
+                        android:text="@string/penjelasankoperasi"
                         android:paddingStart="15dp"
                         android:paddingEnd="15dp"
                         android:paddingBottom="10dp"
