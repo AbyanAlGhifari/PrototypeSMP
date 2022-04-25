@@ -5,8 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@color/white"
-    tools:context=".MainActivity">
+    android:background="@color/white">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -22,7 +21,7 @@
                 android:id="@+id/view1"
                 android:layout_width="match_parent"
                 android:layout_height="200dp"
-                android:background="@drawable/protokol" />
+                android:background="@drawable/mainmenu" />
 
             <TextView
                 android:id="@+id/iv_text"

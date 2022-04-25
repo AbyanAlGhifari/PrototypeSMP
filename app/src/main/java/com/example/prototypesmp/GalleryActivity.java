@@ -13,12 +13,16 @@ public class GalleryActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.gallery);
     }
-    public void pramuka(View view) {
-        Intent intent = new Intent(GalleryActivity.this, PramukaActivity.class);
+    public void outingclass(View view) {
+        Intent intent = new Intent(GalleryActivity.this, OutingActivity.class);
         startActivity(intent);
     }
-    public void upacara(View view) {
-        Intent intent = new Intent(GalleryActivity.this, UpacaraActivity.class);
+    public void studytour(View view) {
+        Intent intent = new Intent(GalleryActivity.this, StudyActivity.class);
+        startActivity(intent);
+    }
+    public void kerjabakti(View view) {
+        Intent intent = new Intent(GalleryActivity.this, KerjaActivity.class);
         startActivity(intent);
     }
 }

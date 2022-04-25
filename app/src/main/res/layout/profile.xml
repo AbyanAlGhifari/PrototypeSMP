@@ -1,82 +1,130 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white"
-    android:fillViewport="true">
+    android:background="@color/white">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:gravity="center"
         android:orientation="vertical">
 
-        <LinearLayout
+        <ImageView
+            android:id="@+id/view1"
             android:layout_width="match_parent"
-            android:layout_height="200dp"
-            android:background="#000000"
+            android:layout_height="195dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/profilsekolah"
             android:layout_gravity="center"/>
-        <TextView
-            android:layout_width="wrap_content"
+
+        <LinearLayout
+            android:id="@+id/line1"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/sekolah"
-            android:textSize="30sp"
-            android:layout_gravity="center_horizontal"
-            android:textColor="@color/black"
-            android:fontFamily="sans-serif-black"/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/tahunajar"
-            android:textSize="25sp"
-            android:layout_gravity="center_horizontal"
-            android:textColor="@color/black"/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
-            android:text="@string/datasekul"
-            android:paddingStart="10dp"
-            android:textColor="@color/black"
-            tools:ignore="RtlSymmetry" />
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/visinmisi"
-            android:textSize="23sp"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginTop="15dp"
-            android:textColor="@color/black"/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/vsi"
-            android:layout_marginTop="10dp"
-            android:textSize="20sp"
-            android:paddingStart="10dp"
-            android:textColor="@color/black"
-            tools:ignore="RtlSymmetry" />
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/visi"
-            android:paddingStart="10dp"
-            android:textColor="@color/black"
-            tools:ignore="RtlSymmetry" />
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/msi"
-            android:layout_marginTop="10dp"
-            android:textSize="20sp"
-            android:paddingStart="10dp"
-            android:textColor="@color/black"
-            tools:ignore="RtlSymmetry" />
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/misi"
-            android:paddingStart="10dp"
-            android:textColor="@color/black"
-            tools:ignore="RtlSymmetry" />
+            android:gravity="center"
+            android:layout_marginTop="25dp"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:onClick="profiles"
+                android:background="@drawable/bakron"
+                tools:ignore="OnClick">
+
+                <ImageView
+                    android:id="@+id/iview1"
+                    android:layout_width="185dp"
+                    android:layout_height="140dp"
+                    android:paddingTop="20dp"
+                    android:paddingBottom="40dp"
+                    android:layout_marginTop="25dp"
+                    android:src="@drawable/information" />
+
+                <TextView
+                    android:id="@+id/textiview1"
+                    android:layout_width="64dp"
+                    android:layout_height="23dp"
+                    android:layout_alignStart="@+id/iview1"
+                    android:layout_alignTop="@id/iview1"
+                    android:layout_alignEnd="@+id/iview1"
+                    android:layout_alignBottom="@id/iview1"
+                    android:layout_marginTop="90dp"
+                    android:gravity="center"
+                    android:text="@string/prof"
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/bakron">
+
+                <ImageView
+                    android:id="@+id/iview2"
+                    android:layout_width="185dp"
+                    android:layout_height="140dp"
+                    android:paddingTop="20dp"
+                    android:paddingBottom="40dp"
+                    android:src="@drawable/info"
+                    android:onClick="info"
+                    tools:ignore="OnClick" />
+
+                <TextView
+                    android:id="@+id/textiview2"
+                    android:layout_width="64dp"
+                    android:layout_height="23dp"
+                    android:layout_alignLeft="@+id/iview2"
+                    android:layout_alignTop="@id/iview2"
+                    android:layout_alignRight="@+id/iview2"
+                    android:layout_alignBottom="@id/iview2"
+                    android:layout_marginTop="90dp"
+                    android:gravity="center"
+                    android:text="INFO"
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/bakron">
+
+                <ImageView
+                    android:id="@+id/iview3"
+                    android:layout_width="185dp"
+                    android:layout_height="140dp"
+                    android:onClick="visimisi"
+                    android:paddingTop="20dp"
+                    android:paddingBottom="40dp"
+                    android:src="@drawable/informative"
+                    tools:ignore="OnClick" />
+
+                <TextView
+                    android:id="@+id/textiview3"
+                    android:layout_width="64dp"
+                    android:layout_height="23dp"
+                    android:layout_alignLeft="@+id/iview3"
+                    android:layout_alignTop="@id/iview3"
+                    android:layout_alignRight="@+id/iview3"
+                    android:layout_alignBottom="@id/iview3"
+                    android:layout_marginTop="90dp"
+                    android:gravity="center"
+                    android:text="VISI MISI"
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+        </LinearLayout>
     </LinearLayout>
 </ScrollView>
+
+

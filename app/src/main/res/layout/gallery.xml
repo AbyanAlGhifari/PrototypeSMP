@@ -15,45 +15,46 @@
             android:layout_height="150dp"
             android:orientation="horizontal"
             android:layout_marginBottom="25dp"
-            android:background="@drawable/bakron"
-            android:onClick="pramuka">
+            android:background="@drawable/bggallery2"
+            android:onClick="outingclass">
 
             <ImageView
                 android:layout_width="150dp"
                 android:layout_height="100dp"
                 android:layout_gravity="center"
                 android:layout_marginStart="25dp"
-                android:src="@drawable/pra"/>
+                android:src="@drawable/komputer2"
+                android:scaleType="fitXY"/>
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="@string/pra"
+                android:text="TIK"
                 android:gravity="center"
                 android:textStyle="bold"
                 android:textAlignment="center"
                 android:textColor="@color/black"/>
         </LinearLayout>
-
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="150dp"
             android:orientation="horizontal"
             android:layout_marginBottom="25dp"
-            android:background="@drawable/bakron"
-            android:onClick="upacara">
+            android:background="@drawable/bggallery2"
+            android:onClick="studytour">
 
             <ImageView
                 android:layout_width="150dp"
                 android:layout_height="100dp"
                 android:layout_gravity="center"
                 android:layout_marginStart="25dp"
-                android:src="@drawable/upcr"/>
+                android:src="@drawable/persami1"
+                android:scaleType="fitXY"/>
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="@string/upacr"
+                android:text="Pramuka"
                 android:gravity="center"
                 android:textStyle="bold"
                 android:textColor="@color/black"/>
@@ -63,41 +64,21 @@
             android:layout_height="150dp"
             android:orientation="horizontal"
             android:layout_marginBottom="25dp"
-            android:background="@drawable/bakron">
+            android:background="@drawable/bggallery2"
+            android:onClick="kerjabakti">
 
             <ImageView
                 android:layout_width="150dp"
                 android:layout_height="100dp"
                 android:layout_gravity="center"
                 android:layout_marginStart="25dp"
-                android:src="@drawable/brsh"/>
+                android:src="@drawable/ker1"
+                android:scaleType="fitXY"/>
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="@string/brsh"
-                android:gravity="center"
-                android:textStyle="bold"
-                android:textColor="@color/black"/>
-        </LinearLayout>
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="150dp"
-            android:orientation="horizontal"
-            android:layout_marginBottom="25dp"
-            android:background="@drawable/bakron">
-
-            <ImageView
-                android:layout_width="150dp"
-                android:layout_height="100dp"
-                android:layout_gravity="center"
-                android:layout_marginStart="25dp"
-                android:src="@drawable/olhr"/>
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:text="@string/kegiatan"
+                android:text="Kerja Bakti"
                 android:gravity="center"
                 android:textStyle="bold"
                 android:textColor="@color/black"/>

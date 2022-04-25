@@ -11,6 +11,19 @@
         android:orientation="vertical"
         android:layout_marginTop="25dp">
         <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <VideoView
+                    android:id="@+id/video_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </FrameLayout>
+        </LinearLayout>
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="75dp"
             android:orientation="vertical"
@@ -37,7 +50,7 @@
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="@drawable/bakron">
+                android:background="@drawable/bgguru">
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -51,36 +64,23 @@
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="175dp"
+            android:layout_height="75dp"
             android:orientation="horizontal"
             android:layout_marginBottom="25dp"
-            android:background="@drawable/bakron">
-            <ImageView
-                android:layout_width="100dp"
-                android:layout_height="125dp"
-                android:layout_gravity="center"
-                android:layout_marginStart="30dp"
-                android:background="@color/black"/>
+            android:background="@drawable/bgguru">
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="vertical">
+                android:orientation="vertical"
+                android:gravity="center">
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Muhammad Abyan Al Ghifari"
+                    android:text="Sri Wahyuni, S.PD"
                     android:layout_gravity="center"
-                    android:layout_marginTop="60dp"
-                    android:textSize="18sp"
+                    android:textSize="20sp"
                     android:textStyle="bold"
                     android:textColor="@color/black"/>
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Programmer"
-                    android:layout_gravity="center"
-                    android:textStyle="bold"
-                    android:textColor="#005EFF"/>
             </LinearLayout>
         </LinearLayout>
         <LinearLayout
@@ -91,7 +91,7 @@
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="@drawable/bakron">
+                android:background="@drawable/bgguru">
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -105,33 +105,27 @@
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="175dp"
+            android:layout_height="75dp"
             android:orientation="horizontal"
-            android:layout_marginBottom="25dp"
-            android:background="@drawable/bakron">
-            <ImageView
-                android:layout_width="100dp"
-                android:layout_height="125dp"
-                android:layout_gravity="center"
-                android:layout_marginStart="30dp"
-                android:background="@color/black"/>
+            android:layout_marginBottom="10dp">
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="vertical">
+                android:orientation="vertical"
+                android:background="@drawable/bgguru"
+                android:gravity="center">
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Muhammad Abyan Al Ghifari"
+                    android:text="Kamsianta, S.Pd"
                     android:layout_gravity="center"
-                    android:layout_marginTop="60dp"
-                    android:textSize="18sp"
+                    android:textSize="20sp"
                     android:textStyle="bold"
                     android:textColor="@color/black"/>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Programmer"
+                    android:text="Wakil Akademik"
                     android:layout_gravity="center"
                     android:textStyle="bold"
                     android:textColor="#005EFF"/>
@@ -139,33 +133,26 @@
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="175dp"
-            android:orientation="horizontal"
-            android:layout_marginBottom="25dp"
-            android:background="@drawable/bakron">
-            <ImageView
-                android:layout_width="100dp"
-                android:layout_height="125dp"
-                android:layout_gravity="center"
-                android:layout_marginStart="30dp"
-                android:background="@color/black"/>
+            android:layout_height="75dp"
+            android:orientation="vertical">
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="vertical">
+                android:orientation="vertical"
+                android:gravity="center"
+                android:background="@drawable/bgguru">
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Muhammad Abyan Al Ghifari"
+                    android:text="Wa Maalusu, S.Pd"
                     android:layout_gravity="center"
-                    android:layout_marginTop="60dp"
-                    android:textSize="18sp"
+                    android:textSize="20sp"
                     android:textStyle="bold"
                     android:textColor="@color/black"/>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Programmer"
+                    android:text="Wakil Non Akademik"
                     android:layout_gravity="center"
                     android:textStyle="bold"
                     android:textColor="#005EFF"/>
@@ -179,7 +166,7 @@
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="@drawable/bakron">
+                android:background="@drawable/bgguru">
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -193,7 +180,7 @@
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="@drawable/bakron">
+                android:background="@drawable/bgguru">
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -208,27 +195,21 @@
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="175dp"
+            android:layout_height="75dp"
             android:orientation="horizontal"
-            android:layout_marginTop="10dp"
-            android:background="@drawable/bakron">
-            <ImageView
-                android:layout_width="100dp"
-                android:layout_height="125dp"
-                android:layout_gravity="center"
-                android:layout_marginStart="30dp"
-                android:background="@color/black"/>
+            android:layout_marginBottom="10dp">
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="vertical">
+                android:orientation="vertical"
+                android:background="@drawable/bgguru"
+                android:gravity="center">
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Bekti Handayani, S.Pd"
                     android:layout_gravity="center"
-                    android:layout_marginTop="60dp"
-                    android:textSize="18sp"
+                    android:textSize="20sp"
                     android:textStyle="bold"
                     android:textColor="@color/black"/>
                 <TextView
@@ -242,27 +223,21 @@
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="175dp"
+            android:layout_height="75dp"
             android:orientation="horizontal"
-            android:layout_marginTop="25dp"
-            android:background="@drawable/bakron">
-            <ImageView
-                android:layout_width="100dp"
-                android:layout_height="125dp"
-                android:layout_gravity="center"
-                android:layout_marginStart="30dp"
-                android:background="@color/black"/>
+            android:layout_marginBottom="10dp">
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="vertical">
+                android:orientation="vertical"
+                android:background="@drawable/bgguru"
+                android:gravity="center">
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Sri Maryati, S.Pd"
                     android:layout_gravity="center"
-                    android:layout_marginTop="60dp"
-                    android:textSize="18sp"
+                    android:textSize="20sp"
                     android:textStyle="bold"
                     android:textColor="@color/black"/>
                 <TextView
@@ -276,27 +251,21 @@
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="175dp"
+            android:layout_height="75dp"
             android:orientation="horizontal"
-            android:layout_marginTop="25dp"
-            android:background="@drawable/bakron">
-            <ImageView
-                android:layout_width="100dp"
-                android:layout_height="125dp"
-                android:layout_gravity="center"
-                android:layout_marginStart="30dp"
-                android:background="@color/black"/>
+            android:layout_marginBottom="10dp">
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="vertical">
+                android:orientation="vertical"
+                android:background="@drawable/bgguru"
+                android:gravity="center">
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Ari Murti Y, S.Psi"
                     android:layout_gravity="center"
-                    android:layout_marginTop="60dp"
-                    android:textSize="18sp"
+                    android:textSize="20sp"
                     android:textStyle="bold"
                     android:textColor="@color/black"/>
                 <TextView
@@ -310,27 +279,21 @@
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="175dp"
+            android:layout_height="75dp"
             android:orientation="horizontal"
-            android:layout_marginTop="25dp"
-            android:background="@drawable/bakron">
-            <ImageView
-                android:layout_width="100dp"
-                android:layout_height="125dp"
-                android:layout_gravity="center"
-                android:layout_marginStart="30dp"
-                android:background="@color/black"/>
+            android:layout_marginBottom="10dp">
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="vertical">
+                android:orientation="vertical"
+                android:background="@drawable/bgguru"
+                android:gravity="center">
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Siti Sholikha, S.Hi"
                     android:layout_gravity="center"
-                    android:layout_marginTop="60dp"
-                    android:textSize="18sp"
+                    android:textSize="20sp"
                     android:textStyle="bold"
                     android:textColor="@color/black"/>
                 <TextView
@@ -344,27 +307,21 @@
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="175dp"
+            android:layout_height="75dp"
             android:orientation="horizontal"
-            android:layout_marginTop="25dp"
-            android:background="@drawable/bakron">
-            <ImageView
-                android:layout_width="100dp"
-                android:layout_height="125dp"
-                android:layout_gravity="center"
-                android:layout_marginStart="30dp"
-                android:background="@color/black"/>
+            android:layout_marginBottom="10dp">
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="vertical">
+                android:orientation="vertical"
+                android:background="@drawable/bgguru"
+                android:gravity="center">
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Suryani Diah P, S.Pd"
                     android:layout_gravity="center"
-                    android:layout_marginTop="60dp"
-                    android:textSize="18sp"
+                    android:textSize="20sp"
                     android:textStyle="bold"
                     android:textColor="@color/black"/>
                 <TextView
@@ -378,27 +335,21 @@
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="175dp"
+            android:layout_height="75dp"
             android:orientation="horizontal"
-            android:layout_marginTop="25dp"
-            android:background="@drawable/bakron">
-            <ImageView
-                android:layout_width="100dp"
-                android:layout_height="125dp"
-                android:layout_gravity="center"
-                android:layout_marginStart="30dp"
-                android:background="@color/black"/>
+            android:layout_marginBottom="10dp">
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="vertical">
+                android:orientation="vertical"
+                android:background="@drawable/bgguru"
+                android:gravity="center">
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Tri Hartanti, S.Pd"
                     android:layout_gravity="center"
-                    android:layout_marginTop="60dp"
-                    android:textSize="18sp"
+                    android:textSize="20sp"
                     android:textStyle="bold"
                     android:textColor="@color/black"/>
                 <TextView
@@ -412,27 +363,21 @@
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="175dp"
+            android:layout_height="75dp"
             android:orientation="horizontal"
-            android:layout_marginTop="25dp"
-            android:background="@drawable/bakron">
-            <ImageView
-                android:layout_width="100dp"
-                android:layout_height="125dp"
-                android:layout_gravity="center"
-                android:layout_marginStart="30dp"
-                android:background="@color/black"/>
+            android:layout_marginBottom="10dp">
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="vertical">
+                android:orientation="vertical"
+                android:background="@drawable/bgguru"
+                android:gravity="center">
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Gunawan Sulistyono, S.Pd"
                     android:layout_gravity="center"
-                    android:layout_marginTop="60dp"
-                    android:textSize="18sp"
+                    android:textSize="20sp"
                     android:textStyle="bold"
                     android:textColor="@color/black"/>
                 <TextView
@@ -446,27 +391,21 @@
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="175dp"
+            android:layout_height="75dp"
             android:orientation="horizontal"
-            android:layout_marginTop="25dp"
-            android:background="@drawable/bakron">
-            <ImageView
-                android:layout_width="100dp"
-                android:layout_height="125dp"
-                android:layout_gravity="center"
-                android:layout_marginStart="30dp"
-                android:background="@color/black"/>
+            android:layout_marginBottom="10dp">
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="vertical">
+                android:orientation="vertical"
+                android:background="@drawable/bgguru"
+                android:gravity="center">
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Dwi Harmoko, S.Pd"
                     android:layout_gravity="center"
-                    android:layout_marginTop="60dp"
-                    android:textSize="18sp"
+                    android:textSize="20sp"
                     android:textStyle="bold"
                     android:textColor="@color/black"/>
                 <TextView
@@ -480,27 +419,21 @@
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="175dp"
+            android:layout_height="75dp"
             android:orientation="horizontal"
-            android:layout_marginTop="25dp"
-            android:background="@drawable/bakron">
-            <ImageView
-                android:layout_width="100dp"
-                android:layout_height="125dp"
-                android:layout_gravity="center"
-                android:layout_marginStart="30dp"
-                android:background="@color/black"/>
+            android:layout_marginBottom="10dp">
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="vertical">
+                android:orientation="vertical"
+                android:background="@drawable/bgguru"
+                android:gravity="center">
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Nanik Sulistyono, S.Pd"
                     android:layout_gravity="center"
-                    android:layout_marginTop="60dp"
-                    android:textSize="18sp"
+                    android:textSize="20sp"
                     android:textStyle="bold"
                     android:textColor="@color/black"/>
                 <TextView
@@ -514,27 +447,21 @@
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="175dp"
+            android:layout_height="75dp"
             android:orientation="horizontal"
-            android:layout_marginTop="25dp"
-            android:background="@drawable/bakron">
-            <ImageView
-                android:layout_width="100dp"
-                android:layout_height="125dp"
-                android:layout_gravity="center"
-                android:layout_marginStart="30dp"
-                android:background="@color/black"/>
+            android:layout_marginBottom="10dp">
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="vertical">
+                android:orientation="vertical"
+                android:background="@drawable/bgguru"
+                android:gravity="center">
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Atik Nurlaela, S.Pd"
                     android:layout_gravity="center"
-                    android:layout_marginTop="60dp"
-                    android:textSize="18sp"
+                    android:textSize="20sp"
                     android:textStyle="bold"
                     android:textColor="@color/black"/>
                 <TextView
@@ -548,27 +475,21 @@
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="175dp"
+            android:layout_height="75dp"
             android:orientation="horizontal"
-            android:layout_marginTop="25dp"
-            android:background="@drawable/bakron">
-            <ImageView
-                android:layout_width="100dp"
-                android:layout_height="125dp"
-                android:layout_gravity="center"
-                android:layout_marginStart="30dp"
-                android:background="@color/black"/>
+            android:layout_marginBottom="10dp">
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="vertical">
+                android:orientation="vertical"
+                android:background="@drawable/bgguru"
+                android:gravity="center">
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Ratih Puspita NIngrum, S.Pd"
                     android:layout_gravity="center"
-                    android:layout_marginTop="60dp"
-                    android:textSize="18sp"
+                    android:textSize="20sp"
                     android:textStyle="bold"
                     android:textColor="@color/black"/>
                 <TextView
@@ -582,27 +503,21 @@
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="175dp"
+            android:layout_height="75dp"
             android:orientation="horizontal"
-            android:layout_marginTop="25dp"
-            android:background="@drawable/bakron">
-            <ImageView
-                android:layout_width="100dp"
-                android:layout_height="125dp"
-                android:layout_gravity="center"
-                android:layout_marginStart="30dp"
-                android:background="@color/black"/>
+            android:layout_marginBottom="10dp">
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="vertical">
+                android:orientation="vertical"
+                android:background="@drawable/bgguru"
+                android:gravity="center">
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Saido, S.Pd"
                     android:layout_gravity="center"
-                    android:layout_marginTop="60dp"
-                    android:textSize="18sp"
+                    android:textSize="20sp"
                     android:textStyle="bold"
                     android:textColor="@color/black"/>
                 <TextView
@@ -616,27 +531,21 @@
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="175dp"
+            android:layout_height="75dp"
             android:orientation="horizontal"
-            android:layout_marginTop="25dp"
-            android:background="@drawable/bakron">
-            <ImageView
-                android:layout_width="100dp"
-                android:layout_height="125dp"
-                android:layout_gravity="center"
-                android:layout_marginStart="30dp"
-                android:background="@color/black"/>
+            android:layout_marginBottom="25dp">
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="vertical">
+                android:orientation="vertical"
+                android:background="@drawable/bgguru"
+                android:gravity="center">
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Mubasyiroh Sri H, S.Si"
                     android:layout_gravity="center"
-                    android:layout_marginTop="60dp"
-                    android:textSize="18sp"
+                    android:textSize="20sp"
                     android:textStyle="bold"
                     android:textColor="@color/black"/>
                 <TextView
@@ -656,7 +565,686 @@
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="@drawable/bakron">
+                android:background="@drawable/bgguru">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Guru dan Mapel"
+                    android:textSize="30sp"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:textColor="@color/black"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bgguru">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Jumlah : 23"
+                    android:textSize="20sp"
+                    android:paddingEnd="10dp"
+                    android:paddingStart="10dp"
+                    android:fontFamily="sans-serif-black"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:orientation="horizontal"
+            android:layout_marginBottom="10dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:background="@drawable/bgguru"
+                android:gravity="center">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Achmad Agus S, S.Pd"
+                    android:layout_gravity="center"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Matematika"
+                    android:layout_gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="#005EFF"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:orientation="horizontal"
+            android:layout_marginBottom="10dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:background="@drawable/bgguru"
+                android:gravity="center">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Wa Maalusu, S.Pd"
+                    android:layout_gravity="center"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="IPA"
+                    android:layout_gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="#005EFF"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:orientation="horizontal"
+            android:layout_marginBottom="10dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:background="@drawable/bgguru"
+                android:gravity="center">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="A. Yani Budi H, S.Pd"
+                    android:layout_gravity="center"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="IPA"
+                    android:layout_gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="#005EFF"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:orientation="horizontal"
+            android:layout_marginBottom="10dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:background="@drawable/bgguru"
+                android:gravity="center">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bekti Handayani, S.Pd"
+                    android:layout_gravity="center"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Prakarya"
+                    android:layout_gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="#005EFF"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:orientation="horizontal"
+            android:layout_marginBottom="10dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:background="@drawable/bgguru"
+                android:gravity="center">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Dwi Setia Y, S.Pd"
+                    android:layout_gravity="center"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Seni Budaya"
+                    android:layout_gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="#005EFF"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:orientation="horizontal"
+            android:layout_marginBottom="10dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:background="@drawable/bgguru"
+                android:gravity="center">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Gunawan Sulistyono, S.Pd"
+                    android:layout_gravity="center"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Penjas"
+                    android:layout_gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="#005EFF"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:orientation="horizontal"
+            android:layout_marginBottom="10dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:background="@drawable/bgguru"
+                android:gravity="center">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tumiarsih, S.Pd"
+                    android:layout_gravity="center"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="IPA"
+                    android:layout_gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="#005EFF"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:orientation="horizontal"
+            android:layout_marginBottom="10dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:background="@drawable/bgguru"
+                android:gravity="center">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sri Maryati, S.Pd"
+                    android:layout_gravity="center"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="TIK"
+                    android:layout_gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="#005EFF"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:orientation="horizontal"
+            android:layout_marginBottom="10dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:background="@drawable/bgguru"
+                android:gravity="center">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Kamsianta, S.Pd"
+                    android:layout_gravity="center"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="IPS"
+                    android:layout_gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="#005EFF"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:orientation="horizontal"
+            android:layout_marginBottom="10dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:background="@drawable/bgguru"
+                android:gravity="center">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Atik Nurlaila, S.Pd"
+                    android:layout_gravity="center"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bahasa Inggris"
+                    android:layout_gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="#005EFF"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:orientation="horizontal"
+            android:layout_marginBottom="10dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:background="@drawable/bgguru"
+                android:gravity="center">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Suryani Dyah P, S.Pd"
+                    android:layout_gravity="center"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="BP/BK"
+                    android:layout_gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="#005EFF"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:orientation="horizontal"
+            android:layout_marginBottom="10dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:background="@drawable/bgguru"
+                android:gravity="center">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ida Arijani, S.Pd"
+                    android:layout_gravity="center"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bahasa Indonesia"
+                    android:layout_gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="#005EFF"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:orientation="horizontal"
+            android:layout_marginBottom="10dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:background="@drawable/bgguru"
+                android:gravity="center">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Nanik Miarsih, S.Pd"
+                    android:layout_gravity="center"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Matematika"
+                    android:layout_gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="#005EFF"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:orientation="horizontal"
+            android:layout_marginBottom="10dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:background="@drawable/bgguru"
+                android:gravity="center">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Saido, S.Pd"
+                    android:layout_gravity="center"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Matematika"
+                    android:layout_gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="#005EFF"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:orientation="horizontal"
+            android:layout_marginBottom="10dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:background="@drawable/bgguru"
+                android:gravity="center">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tri Hartanti, S.Pd"
+                    android:layout_gravity="center"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="IPS"
+                    android:layout_gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="#005EFF"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:orientation="horizontal"
+            android:layout_marginBottom="10dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:background="@drawable/bgguru"
+                android:gravity="center">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mubasyiroh Sri H, S.Si"
+                    android:layout_gravity="center"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bahasa Jawa"
+                    android:layout_gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="#005EFF"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:orientation="horizontal"
+            android:layout_marginBottom="10dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:background="@drawable/bgguru"
+                android:gravity="center">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Endang Setyowati, S.Pd"
+                    android:layout_gravity="center"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Pkn"
+                    android:layout_gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="#005EFF"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:orientation="horizontal"
+            android:layout_marginBottom="10dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:background="@drawable/bgguru"
+                android:gravity="center">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Nanik Setyowati, S.Pd.I"
+                    android:layout_gravity="center"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Pendidikan Agama"
+                    android:layout_gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="#005EFF"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:orientation="horizontal"
+            android:layout_marginBottom="10dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:background="@drawable/bgguru"
+                android:gravity="center">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Siti Sholikha, S.H"
+                    android:layout_gravity="center"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Pendidikan Agama"
+                    android:layout_gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="#005EFF"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:orientation="horizontal"
+            android:layout_marginBottom="10dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:background="@drawable/bgguru"
+                android:gravity="center">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Dwi Harmoko, SE"
+                    android:layout_gravity="center"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="IPS"
+                    android:layout_gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="#005EFF"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:orientation="horizontal"
+            android:layout_marginBottom="10dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:background="@drawable/bgguru"
+                android:gravity="center">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Arimurti Y, S.Psi"
+                    android:layout_gravity="center"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="BP/BK"
+                    android:layout_gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="#005EFF"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:orientation="horizontal"
+            android:layout_marginBottom="10dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:background="@drawable/bgguru"
+                android:gravity="center">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Twibet Dillah, S.Pd"
+                    android:layout_gravity="center"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bahasa Inggris"
+                    android:layout_gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="#005EFF"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:orientation="horizontal"
+            android:layout_marginBottom="25dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:background="@drawable/bgguru"
+                android:gravity="center">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ratih Puspitaningrum, S.Pd"
+                    android:layout_gravity="center"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bahasa Indonesia"
+                    android:layout_gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="#005EFF"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:orientation="vertical"
+            android:gravity="center">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bgguru">
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -670,7 +1258,7 @@
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="@drawable/bakron">
+                android:background="@drawable/bgguru">
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -685,27 +1273,21 @@
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="175dp"
+            android:layout_height="75dp"
             android:orientation="horizontal"
-            android:layout_marginTop="10dp"
-            android:background="@drawable/bakron">
-            <ImageView
-                android:layout_width="100dp"
-                android:layout_height="125dp"
-                android:layout_gravity="center"
-                android:layout_marginStart="30dp"
-                android:background="@color/black"/>
+            android:layout_marginBottom="10dp">
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="vertical">
+                android:orientation="vertical"
+                android:background="@drawable/bgguru"
+                android:gravity="center">
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Heni Pujiastuti.SE"
                     android:layout_gravity="center"
-                    android:layout_marginTop="60dp"
-                    android:textSize="18sp"
+                    android:textSize="20sp"
                     android:textStyle="bold"
                     android:textColor="@color/black"/>
                 <TextView
@@ -719,27 +1301,21 @@
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="175dp"
+            android:layout_height="75dp"
             android:orientation="horizontal"
-            android:layout_marginTop="25dp"
-            android:background="@drawable/bakron">
-            <ImageView
-                android:layout_width="100dp"
-                android:layout_height="125dp"
-                android:layout_gravity="center"
-                android:layout_marginStart="30dp"
-                android:background="@color/black"/>
+            android:layout_marginBottom="10dp">
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="vertical">
+                android:orientation="vertical"
+                android:background="@drawable/bgguru"
+                android:gravity="center">
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Endang Susilawti.S.Pd"
                     android:layout_gravity="center"
-                    android:layout_marginTop="60dp"
-                    android:textSize="18sp"
+                    android:textSize="20sp"
                     android:textStyle="bold"
                     android:textColor="@color/black"/>
                 <TextView
@@ -753,27 +1329,21 @@
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="175dp"
+            android:layout_height="75dp"
             android:orientation="horizontal"
-            android:layout_marginTop="25dp"
-            android:background="@drawable/bakron">
-            <ImageView
-                android:layout_width="100dp"
-                android:layout_height="125dp"
-                android:layout_gravity="center"
-                android:layout_marginStart="30dp"
-                android:background="@color/black"/>
+            android:layout_marginBottom="10dp">
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="vertical">
+                android:orientation="vertical"
+                android:background="@drawable/bgguru"
+                android:gravity="center">
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Eni Yuliastuti"
                     android:layout_gravity="center"
-                    android:layout_marginTop="60dp"
-                    android:textSize="18sp"
+                    android:textSize="20sp"
                     android:textStyle="bold"
                     android:textColor="@color/black"/>
                 <TextView
@@ -787,27 +1357,21 @@
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="175dp"
+            android:layout_height="75dp"
             android:orientation="horizontal"
-            android:layout_marginTop="25dp"
-            android:background="@drawable/bakron">
-            <ImageView
-                android:layout_width="100dp"
-                android:layout_height="125dp"
-                android:layout_gravity="center"
-                android:layout_marginStart="30dp"
-                android:background="@color/black"/>
+            android:layout_marginBottom="10dp">
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="vertical">
+                android:orientation="vertical"
+                android:background="@drawable/bgguru"
+                android:gravity="center">
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Yayuk Tri Winarsih"
                     android:layout_gravity="center"
-                    android:layout_marginTop="60dp"
-                    android:textSize="18sp"
+                    android:textSize="20sp"
                     android:textStyle="bold"
                     android:textColor="@color/black"/>
                 <TextView
@@ -821,33 +1385,27 @@
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="175dp"
+            android:layout_height="75dp"
             android:orientation="horizontal"
-            android:layout_marginTop="25dp"
-            android:background="@drawable/bakron">
-            <ImageView
-                android:layout_width="100dp"
-                android:layout_height="125dp"
-                android:layout_gravity="center"
-                android:layout_marginStart="30dp"
-                android:background="@color/black"/>
+            android:layout_marginBottom="10dp">
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="vertical">
+                android:orientation="vertical"
+                android:background="@drawable/bgguru"
+                android:gravity="center">
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Joko Sudaryanto"
                     android:layout_gravity="center"
-                    android:layout_marginTop="60dp"
-                    android:textSize="18sp"
+                    android:textSize="20sp"
                     android:textStyle="bold"
                     android:textColor="@color/black"/>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="POperator Komputer"
+                    android:text="Operator Komputer"
                     android:layout_gravity="center"
                     android:textStyle="bold"
                     android:textColor="#005EFF"/>
@@ -855,27 +1413,21 @@
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="175dp"
+            android:layout_height="75dp"
             android:orientation="horizontal"
-            android:layout_marginTop="25dp"
-            android:background="@drawable/bakron">
-            <ImageView
-                android:layout_width="100dp"
-                android:layout_height="125dp"
-                android:layout_gravity="center"
-                android:layout_marginStart="30dp"
-                android:background="@color/black"/>
+            android:layout_marginBottom="10dp">
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="vertical">
+                android:orientation="vertical"
+                android:background="@drawable/bgguru"
+                android:gravity="center">
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Agung Riyanto"
                     android:layout_gravity="center"
-                    android:layout_marginTop="60dp"
-                    android:textSize="18sp"
+                    android:textSize="20sp"
                     android:textStyle="bold"
                     android:textColor="@color/black"/>
                 <TextView
@@ -889,62 +1441,21 @@
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="175dp"
+            android:layout_height="75dp"
             android:orientation="horizontal"
-            android:layout_marginTop="25dp"
-            android:background="@drawable/bakron">
-            <ImageView
-                android:layout_width="100dp"
-                android:layout_height="125dp"
-                android:layout_gravity="center"
-                android:layout_marginStart="30dp"
-                android:background="@color/black"/>
+            android:layout_marginBottom="25dp">
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="vertical">
+                android:orientation="vertical"
+                android:background="@drawable/bgguru"
+                android:gravity="center">
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Supriyanto"
+                    android:text="Supriyanto, Ama"
                     android:layout_gravity="center"
-                    android:layout_marginTop="60dp"
-                    android:textSize="18sp"
-                    android:textStyle="bold"
-                    android:textColor="@color/black"/>
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Penjaga"
-                    android:layout_gravity="center"
-                    android:textStyle="bold"
-                    android:textColor="#005EFF"/>
-            </LinearLayout>
-        </LinearLayout>
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="175dp"
-            android:orientation="horizontal"
-            android:layout_marginTop="25dp"
-            android:layout_marginBottom="25dp"
-            android:background="@drawable/bakron">
-            <ImageView
-                android:layout_width="100dp"
-                android:layout_height="125dp"
-                android:layout_gravity="center"
-                android:layout_marginStart="30dp"
-                android:background="@color/black"/>
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="vertical">
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Ama"
-                    android:layout_gravity="center"
-                    android:layout_marginTop="60dp"
-                    android:textSize="18sp"
+                    android:textSize="20sp"
                     android:textStyle="bold"
                     android:textColor="@color/black"/>
                 <TextView

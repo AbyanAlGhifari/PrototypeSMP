@@ -1,100 +1,129 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white"
-    android:fillViewport="true">
-    <RelativeLayout
+    android:background="@color/white">
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:gravity="center"
         android:orientation="vertical">
 
+        <ImageView
+            android:id="@+id/view1"
+            android:layout_width="match_parent"
+            android:scaleType="fitXY"
+            android:layout_height="195dp"
+            android:src="@drawable/p4"
+            android:layout_gravity="center"/>
+
         <LinearLayout
+            android:id="@+id/line1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginVertical="20dp"
-            android:orientation="vertical"
-            android:gravity="center">
+            android:gravity="center"
+            android:layout_marginTop="25dp"
+            android:orientation="vertical">
 
-            <LinearLayout
-                android:id="@+id/llay1"
-                android:layout_width="match_parent"
+            <RelativeLayout
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:layout_marginBottom="25dp">
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="PERPUSTAKAAN"
-                    android:gravity="center_horizontal"
-                    android:textStyle="bold"/>
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textSize="15sp"
-                    android:text="@string/penjelasanperpus"
-                    android:background="@color/teal_200"
-                    />
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:layout_marginBottom="25dp">
+                android:layout_marginBottom="15dp"
+                android:onClick="akademik"
+                android:background="@drawable/bgprestasi"
+                tools:ignore="OnClick">
 
                 <ImageView
-                    android:layout_width="200dp"
-                    android:layout_height="150dp"
-                    android:layout_gravity="center"
-                    android:background="@color/black"/>
+                    android:id="@+id/iview1"
+                    android:layout_width="185dp"
+                    android:layout_height="140dp"
+                    android:paddingTop="20dp"
+                    android:paddingBottom="40dp"
+                    android:layout_marginTop="25dp"
+                    android:src="@drawable/studying" />
 
                 <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="PERPUSTAKAAN"
-                    android:gravity="center_horizontal"
-                    android:textStyle="bold"/>
+                    android:id="@+id/textiview1"
+                    android:layout_width="64dp"
+                    android:layout_height="23dp"
+                    android:layout_alignStart="@+id/iview1"
+                    android:layout_alignTop="@id/iview1"
+                    android:layout_alignEnd="@+id/iview1"
+                    android:layout_alignBottom="@id/iview1"
+                    android:layout_marginTop="90dp"
+                    android:gravity="center"
+                    android:text="Akademik"
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
 
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textSize="15sp"
-                    android:text="@string/penjelasanperpus"
-                    android:background="@color/teal_200"
-                    />
-
-            </LinearLayout>
-            <LinearLayout
-                android:layout_width="match_parent"
+            <RelativeLayout
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:layout_marginBottom="25dp">
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/bgprestasi">
 
                 <ImageView
-                    android:layout_width="200dp"
-                    android:layout_height="150dp"
-                    android:layout_gravity="center"
-                    android:background="@color/black"/>
+                    android:id="@+id/iview2"
+                    android:layout_width="185dp"
+                    android:layout_height="140dp"
+                    android:paddingTop="20dp"
+                    android:paddingBottom="40dp"
+                    android:src="@drawable/runner"
+                    android:onClick="nonakademik"
+                    tools:ignore="OnClick" />
 
                 <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="PERPUSTAKAAN"
-                    android:gravity="center_horizontal"
-                    android:textStyle="bold"/>
+                    android:id="@+id/textiview2"
+                    android:layout_width="64dp"
+                    android:layout_height="23dp"
+                    android:layout_alignLeft="@+id/iview2"
+                    android:layout_alignTop="@id/iview2"
+                    android:layout_alignRight="@+id/iview2"
+                    android:layout_alignBottom="@id/iview2"
+                    android:layout_marginTop="90dp"
+                    android:gravity="center"
+                    android:text="Non-Akademik"
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/bgprestasi">
+
+                <ImageView
+                    android:id="@+id/iview3"
+                    android:layout_width="185dp"
+                    android:layout_height="140dp"
+                    android:onClick="piala"
+                    android:paddingTop="20dp"
+                    android:paddingBottom="40dp"
+                    android:src="@drawable/trophy"
+                    tools:ignore="OnClick" />
 
                 <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textSize="15sp"
-                    android:text="@string/penjelasanperpus"
-                    android:background="@color/teal_200"
-                    />
-            </LinearLayout>
+                    android:id="@+id/textiview3"
+                    android:layout_width="64dp"
+                    android:layout_height="23dp"
+                    android:layout_alignLeft="@+id/iview3"
+                    android:layout_alignTop="@id/iview3"
+                    android:layout_alignRight="@+id/iview3"
+                    android:layout_alignBottom="@id/iview3"
+                    android:layout_marginTop="90dp"
+                    android:gravity="center"
+                    android:text="Piala"
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
         </LinearLayout>
-    </RelativeLayout>
+    </LinearLayout>
 </ScrollView>
+

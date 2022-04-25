@@ -3,23 +3,42 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/NA/AndroidStudioProjects/PrototypeSMP/app/src/main/res/drawable/background.xml" value="0.115" />
         <entry key="..\:/Users/NA/AndroidStudioProjects/PrototypeSMP/app/src/main/res/drawable/backround.xml" value="0.115" />
+        <entry key="..\:/Users/NA/AndroidStudioProjects/PrototypeSMP/app/src/main/res/drawable/backrounds.xml" value="0.115" />
         <entry key="..\:/Users/NA/AndroidStudioProjects/PrototypeSMP/app/src/main/res/drawable/bakron.xml" value="0.114" />
+        <entry key="..\:/Users/NA/AndroidStudioProjects/PrototypeSMP/app/src/main/res/drawable/bgekskul.xml" value="0.115" />
+        <entry key="..\:/Users/NA/AndroidStudioProjects/PrototypeSMP/app/src/main/res/drawable/bgfasilitas.xml" value="0.115" />
+        <entry key="..\:/Users/NA/AndroidStudioProjects/PrototypeSMP/app/src/main/res/drawable/bggallery.xml" value="0.115" />
+        <entry key="..\:/Users/NA/AndroidStudioProjects/PrototypeSMP/app/src/main/res/drawable/bggallery2.xml" value="0.115" />
+        <entry key="..\:/Users/NA/AndroidStudioProjects/PrototypeSMP/app/src/main/res/drawable/bgguru.xml" value="0.115" />
+        <entry key="..\:/Users/NA/AndroidStudioProjects/PrototypeSMP/app/src/main/res/drawable/bgprestasi.xml" value="0.115" />
+        <entry key="..\:/Users/NA/AndroidStudioProjects/PrototypeSMP/app/src/main/res/drawable/bgprestasi2.xml" value="0.115" />
+        <entry key="..\:/Users/NA/AndroidStudioProjects/PrototypeSMP/app/src/main/res/drawable/bgprofile.xml" value="0.115" />
         <entry key="..\:/Users/NA/AndroidStudioProjects/PrototypeSMP/app/src/main/res/drawable/gradi.xml" value="0.1" />
         <entry key="..\:/Users/NA/AndroidStudioProjects/PrototypeSMP/app/src/main/res/drawable/ic_launcher_background.xml" value="0.114" />
-        <entry key="..\:/Users/NA/AndroidStudioProjects/PrototypeSMP/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/NA/AndroidStudioProjects/PrototypeSMP/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Users/NA/AndroidStudioProjects/PrototypeSMP/app/src/main/res/layout/activity_menu.xml" value="0.1" />
         <entry key="..\:/Users/NA/AndroidStudioProjects/PrototypeSMP/app/src/main/res/layout/asd.xml" value="0.1" />
         <entry key="..\:/Users/NA/AndroidStudioProjects/PrototypeSMP/app/src/main/res/layout/ekskul.xml" value="0.25" />
         <entry key="..\:/Users/NA/AndroidStudioProjects/PrototypeSMP/app/src/main/res/layout/fasilitas.xml" value="0.22" />
-        <entry key="..\:/Users/NA/AndroidStudioProjects/PrototypeSMP/app/src/main/res/layout/gallery.xml" value="0.33" />
+        <entry key="..\:/Users/NA/AndroidStudioProjects/PrototypeSMP/app/src/main/res/layout/gallery.xml" value="0.3228995057660626" />
+        <entry key="..\:/Users/NA/AndroidStudioProjects/PrototypeSMP/app/src/main/res/layout/gallery_bakti.xml" value="0.1624007060900265" />
+        <entry key="..\:/Users/NA/AndroidStudioProjects/PrototypeSMP/app/src/main/res/layout/gallery_outing.xml" value="0.21" />
+        <entry key="..\:/Users/NA/AndroidStudioProjects/PrototypeSMP/app/src/main/res/layout/gallery_study.xml" value="0.1675929884566054" />
         <entry key="..\:/Users/NA/AndroidStudioProjects/PrototypeSMP/app/src/main/res/layout/gallery_upacara.xml" value="0.1675929884566054" />
-        <entry key="..\:/Users/NA/AndroidStudioProjects/PrototypeSMP/app/src/main/res/layout/gurudanstaff.xml" value="0.15825595478401291" />
+        <entry key="..\:/Users/NA/AndroidStudioProjects/PrototypeSMP/app/src/main/res/layout/gurudanstaff.xml" value="0.13310696095076402" />
         <entry key="..\:/Users/NA/AndroidStudioProjects/PrototypeSMP/app/src/main/res/layout/gurudanstaff_staff.xml" value="0.18" />
         <entry key="..\:/Users/NA/AndroidStudioProjects/PrototypeSMP/app/src/main/res/layout/osis.xml" value="0.22" />
         <entry key="..\:/Users/NA/AndroidStudioProjects/PrototypeSMP/app/src/main/res/layout/pramuka.xml" value="0.25" />
-        <entry key="..\:/Users/NA/AndroidStudioProjects/PrototypeSMP/app/src/main/res/layout/prestasi.xml" value="0.1" />
+        <entry key="..\:/Users/NA/AndroidStudioProjects/PrototypeSMP/app/src/main/res/layout/prestasi.xml" value="0.22" />
+        <entry key="..\:/Users/NA/AndroidStudioProjects/PrototypeSMP/app/src/main/res/layout/prestasi_akademik.xml" value="0.14" />
+        <entry key="..\:/Users/NA/AndroidStudioProjects/PrototypeSMP/app/src/main/res/layout/prestasi_nonakademik.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/NA/AndroidStudioProjects/PrototypeSMP/app/src/main/res/layout/prestasi_piala.xml" value="0.1675929884566054" />
         <entry key="..\:/Users/NA/AndroidStudioProjects/PrototypeSMP/app/src/main/res/layout/profile.xml" value="0.25" />
+        <entry key="..\:/Users/NA/AndroidStudioProjects/PrototypeSMP/app/src/main/res/layout/profile_info.xml" value="0.25" />
+        <entry key="..\:/Users/NA/AndroidStudioProjects/PrototypeSMP/app/src/main/res/layout/profile_profile.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/NA/AndroidStudioProjects/PrototypeSMP/app/src/main/res/layout/profile_visimisi.xml" value="0.21" />
       </map>
     </option>
   </component>
