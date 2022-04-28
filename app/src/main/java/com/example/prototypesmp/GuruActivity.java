@@ -13,15 +13,6 @@ public class GuruActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.gurudanstaff);
-
-        VideoView videoview = findViewById(R.id.video_view);
-        String videoPath = "android.resource://" + getPackageName() + "/" + R.raw.videoguru;
-        Uri uri = Uri.parse(videoPath);
-        videoview.setVideoURI(uri);
-
-        MediaController mediaController = new MediaController(this);
-        videoview.setMediaController(mediaController);
-        mediaController.setAnchorView(videoview);
     }
 }
 
